@@ -224,11 +224,11 @@ end
 end
 })
 --Craft
-minetest.register_craft({
-		output = 'mycorners:machine_corner',
+core.register_craft({
+		output = "mycorners:machine_corner",
 		recipe = {
-			{'', '', ''},
-			{'group:wood', 'default:steel_ingot', 'group:wood'},
-			{'default:steelblock', "default:steelblock", 'default:steelblock"'},
+			{"", "", ""},
+			{"group:wood", "default:steel_ingot", "group:wood"},
+			{"default:steelblock", "default:steelblock", "default:steelblock"},
 		},
 })
